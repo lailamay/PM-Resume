@@ -1,0 +1,75 @@
+%!TEX program = lualatex
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Laila Chavez}
+\address{ Seattle, WA 98109}
+\contacts{(562) 552-0620 \linebreak lailamay.chavez@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Product Manager}{VueMed}{June 2023 -- December 2023}			
+			\begin{itemize}
+				\item Led a pilot project as a product manager from design to production, providing a medical organization with ESL labels for inventory management, showcasing strong project management skills and client-focused solutions.
+				\item Cleaned client data from Excel spreadsheets and skillfully created a structured SQL database, enhancing internal usage efficiency. 
+				\item Designed ESL labels utilizing data from client's inventory item master, demonstrating exceptional attention to detail and client-specific customization.
+				\item Spearheaded architectural and design discussions with internal cross-functional teams, facilitating collaborative efforts to align on project goals and strategies.
+				\item Effectively managed project progression using Smartsheet and Jira, ensuring timely updates and maintaining transparent communication with stakeholders through regular sync-ups.
+				\item Conducted on-site client visits for comprehensive testing of ESL labels and application, meticulously documenting key findings to enhance development processes. 
+				\item Authored comprehensive onboarding documentation to streamline the integration process for new team members.
+				\item Conducted extensive research and developed detailed Git workflow documentation, standardizing development practices for the growing development team.
+				\item Engaged with internal dashboard application users to identify bugs, and efficiently translated feedback into actionable Jira bug stories.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Engineer}{Accenture}{March 2021 -- May 2023}	
+			\begin{itemize}
+				\item Optimized a monolithic application by breaking it up into microservices, resulting in easier deployments and testing.
+				\item Created integration, end-to-end, and unit tests to ensure application and code quality.
+				\item Implemented Test Driven Development to develop clean and concise code.
+				\item Championed the use of Behavior Driven Development to work with customers to understand the features needed for the product.
+				\item Collaborated closely with product owners and internal teams to ensure the solution meets customer standards.
+				\item Used technologies such as Angular, React, and Next.js to create modern full-stack web applications.
+				\item Modernized web applications using optimization techniques like server side rendering to improve lighthouse performance scores by 25\% providing better user experience.
+				\item Utilized agile methodologies to create stories during the software development life cycle using tools such as Jira and Confluence.
+				\item Wrote various onboarding documentation to help new developers bootstrap quicker to projects.
+				\item Facilitated retro style meetings to gauge team morale and optimize team efficiency with action items. 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Seattle, WA}{North Seattle College}{Fall 2016 -- June 2020}
+			\begin{itemize}
+				\item Bachelor of Applied Science in Application Development. GPA: 3.8/4.0.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Irvine, CA}{University of California, Irvine}{Fall 2011 -- September 2015}
+			\begin{itemize}
+				\item Bachelor of Arts in Cognitive Psychology and Sociology. GPA: 3.7/4.0.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Certifications, Languages, and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item AWS Certified Cloud Practitioner
+				\item Python, SQL, MySQL, JavaScript, TypeScript, HTML5, CSS3, GraphQL, C\#
+				\item .NET Blazor, React.js, Next.js, Node.js, REST, Angular, Tailwind CSS, Microsoft Azure, AWS
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
